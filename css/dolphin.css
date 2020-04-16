@@ -14,9 +14,33 @@ html {
 
 #dolphin {
   position: absolute;
-  top: 400px;
-  right: 0;
+  top: 450px;
+  right: 300px;
 }
 
-/* Write your solution here */
+@media only screen and (min-width: 1350px) and (max-width: 1400px) {
+  #dolphin {
+    position: absolute;
+    top: 212px;
+    right: 300px;
+    transform: rotate(0.75turn);
+  }
+}
 
+@media only screen and (min-width: 975px) and (max-width: 1349px) {
+  #dolphin {
+    position: absolute;
+    top: 25px;
+    right: 300px;
+    transform: rotate(0.5turn);
+  }
+}
+
+@media only screen and (min-width: 925px) and (max-width: 974px) {
+  #dolphin {
+    position: absolute;
+    top: 212px;
+    right: 300px;
+    transform: rotate(0.25turn);
+  }
+}
